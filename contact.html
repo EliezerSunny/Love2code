@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    
+    <!-- Love2Code icon -->
+  <link rel="icon" href="img/Love2Code.ico" type="image/x-icon">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+    <!-- google advertisement -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7275069784044836"
+     crossorigin="anonymous"></script>
+
+
+     <meta name="og:description" content="Welcome to Love2Code – a free online guide to coding for beginners. If you’re someone who wants to learn about coding, but you haven’t got a clue where to start, you’ve come to the right place. This site has all the step-by-step information you need to get started." />
+    <meta name="keywords" content="A free online guide to coding for beginners.">
+	<meta name="author" content="Eliazer Adetunji" />
+	<meta name="TitleImage" content="img/logo.jpg" />
+
+	<meta property="og:local" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Love2Code" />
+	<meta property="article:publisher" content="https://m.facebook.com/love2code/" />
+	<meta property="og:image" content="img/logo.jpg" />
+	<meta property="og:url" content="www.love2code.site" />
+	<meta property="og:site_name" content="Love2Code" />
+</head>
+<body>
+	<header class="header-area">
+        <div class="header-container">
+
+            <div class="site-logo">
+                <span id="logo"></span>
+            </div>
+            
+            <div class="site-nav-menu1">
+                <ul class="primary-menu1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contact" class="active">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="site-nav-menu" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                <ul class="primary-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contact" class="active">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger" onclick="openNav()">
+              <!-- <span></span>
+               <span></span>
+               <span></span> --->
+
+               <i class="fas fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+
+   
+    	
+    	<!-- TOP-IMAGE -->
+<!-- <div class="top">
+  <div class="top-image">
+  	<img src="img/backg.jpg">
+  </div>
+
+  <div class="top-text">
+    <h4>Hi There!</h4>
+    <h3>I'm Eliezer</h3>
+    <h5>I'm a web developer</h5>
+ 
+    <div class="top-button">
+    <a href="contact">
+    <input type="submit" name="contact" value="Contact Me">
+    </a>
+    </div>
+
+  </div>
+
+ </div> -->
+ <!-- TOP-IMAGE END -->
+
+ <div class="main-content">
+
+   <div class="intro">
+<p>You are here: <a href="index"><b>Home</b></a> / Contact</p>
+    <hr>
+</div>
+
+    		<h2>Free Coding Guide for Beginners</h2>
+                
+    				
+<div class="ads">
+            <p><h5>Advertisement</h5>
+<span id="ads"></span>
+</p>
+</div>
+
+
+<p>Thank you for your interest in our site. Feel free to pass along any questions, comments, concerns or considerations regarding our site.</p> 
+
+
+<p><strong>Beginning Programmers</strong></p>
+
+<p> If you have special requests for content you would like to see on our site, please let us know. Also, if you feel the content is too basic or too complex, we can adjust. We welcome feedback and are happy to accommodate our readers as our goal is to help everyone on their journey to becoming working programmers.</p> 
+
+
+<p><strong>Expert Programmers</strong></p>
+
+<p> Interested in sharing your expertise and creating useful content for our readers? Gain experience and credibility by putting your knowledge on display to our growing reader base. Contact us to discuss becoming part of the team as a freelance contributor.</p> 
+<br>
+<br>
+
+
+    <div class="container">
+        <h3>Connect with us</h3>
+        
+        <br>
+
+  <form action="https://formsubmit.co/love2code.webdev@gmail.com" method="POST" onsubmit="myFunction()">
+    <label for="fname">Full Name</label><span style="color: red !important; display: inline; float: none;">*</span>
+    <input type="hidden" name="_next" value="https://www.love2code.site/developer/thanks">
+    <input type="hidden" name="_subject" value="New contact form submission!">
+    <input type="hidden" name="_autoresponse" value="Thank you for connecting with us! We have received your message and will get back to you as soon as possible.">
+    
+    
+    <input type="text" id="name" name="fullname" placeholder="Enter your name..." required="required">
+
+    
+    <label for="email">Email</label><span style="color: red !important; display: inline; float: none;">*</span>
+    <input type="email" id="email" name="email" placeholder="Enter your email..." required="required">
+
+    <label for="phone">Phone No.</label><!-- <span style="color: red !important; display: inline; float: none;">*</span> -->
+    <input type="text" id="phone" name="phone" placeholder="Enter your phone no...">
+
+
+    <label for="subject">Subject</label><span style="color: red !important; display: inline; float: none;">*</span>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px" required="required"></textarea>
+
+
+    <div id="success" class="success"></div>
+    
+    
+    <input type="submit" style="font-weight:600; font-size:15px;" onclick="myFunctions()" value="Submit">
+  </form>
+</div>
+
+
+
+
+<div class="post">
+    <h3>POPULAR BLOG POST:</h3>
+    <p>
+     <ul class="blogs">
+                    <span id="post"></span>
+                    
+                    <span id="post2"></span>
+                    
+                    <span id="post3"></span>
+                    
+                    <span id="post4"></span>
+                    
+                    <span id="post5"></span>
+                    
+                    <span id="post6"></span>
+
+                    <span id="post7"></span>
+                    
+                    <span id="post8"></span>
+                    
+                    <span id="post9"></span>
+                    
+                    <span id="post10"></span>
+                    
+                    <span id="post11"></span>
+                    
+                    <span id="post12"></span>
+                </ul>
+    </p>
+    </div>
+
+
+
+    </div>
+
+    <!-- FOOTER --->
+    <footer class="footer">
+    	<div class="main-footer">
+
+    		<div class="site-logo">
+                <span id="logo2"></span>
+            </div>
+
+            <div class="main-footer-content">
+
+            	<div class="social-link">
+                        <span id="facebook"></span>
+                        
+                        <span id="google"></span>
+
+                        <span id="whatsapp"></span>
+
+                        <span id="email"></span>
+
+                        <span id="youtube"></span>
+                        
+                        <span id="twitter"></span>
+                    </div>
+
+                    <div class="condition">
+                    <a href="terms-and-conditions">Terms & Conditions</a>
+                    <a href="privacy-policy">Privacy Policy</a>
+                </div>
+
+            	<div class="copyright">
+                    <p>&copy; Love2Code <span id="year"></span>. All right reserved.</p>
+                </div>
+
+            </div>
+    	</div>
+    </footer>
+
+    <!-- FOOTER END --->
+
+<script src="script/script.js"></script>
+
+<script>
+
+        var message = document.getElementById('success');
+       
+        
+
+        function myFunctions() {
+
+            var email = document.getElementById("email").value;
+            var subject = document.getElementById("subject").value;
+            var name = document.getElementById("name").value;
+
+            if (name === "") {
+                document.getElementById('success').innerHTML = "Name is required!";
+                message.style.background = "#f0d8d8";
+                message.style.color = "#600002";
+                return false;
+
+                
+                
+            } else if (email === "") {
+                document.getElementById('success').innerHTML = "Email is required!";
+                message.style.background = "#f0d8d8";
+                message.style.color = "#600002";
+                return false;
+                
+            } else if (subject === "") {
+                document.getElementById('success').innerHTML = "Subject is required!";
+                message.style.background = "#f0d8d8";
+                message.style.color = "#600002";
+                return false;
+                
+                
+            } else{
+                document.getElementById('success').innerHTML = "Submitted Successfully!";
+                message.style.background = "#c0dfd3";
+                message.style.color = "#013220";
+                return true;
+                 
+            }
+
+            
+        }
+
+    </script>
+
+</body>
+</html>

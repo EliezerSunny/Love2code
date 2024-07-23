@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Tutorial – How to Setup PHP and XAMPP for Your Project</title>
+    
+    <!-- Love2Code icon -->
+  <link rel="icon" href="img/Love2Code.ico" type="image/x-icon">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+    <!-- google advertisement -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7275069784044836"
+     crossorigin="anonymous"></script>
+
+
+     <meta name="og:description" content="Welcome to Love2Code – a free online guide to coding for beginners. If you’re someone who wants to learn about coding, but you haven’t got a clue where to start, you’ve come to the right place. This site has all the step-by-step information you need to get started." />
+    <meta name="keywords" content="A free online guide to coding for beginners.">
+	<meta name="author" content="Eliazer Adetunji" />
+	<meta name="TitleImage" content="img/logo.jpg" />
+
+	<meta property="og:local" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Love2Code" />
+	<meta property="article:publisher" content="https://m.facebook.com/love2code/" />
+	<meta property="og:image" content="img/logo.jpg" />
+	<meta property="og:url" content="www.love2code.site" />
+	<meta property="og:site_name" content="Love2Code" />
+</head>
+<body>
+	<header class="header-area">
+        <div class="header-container">
+
+            <div class="site-logo">
+                <span id="logo"></span>
+            </div>
+            
+            <div class="site-nav-menu1">
+                <ul class="primary-menu1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog" class="active">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="site-nav-menu" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                <ul class="primary-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog" class="active">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger" onclick="openNav()">
+              <!-- <span></span>
+               <span></span>
+               <span></span> --->
+
+               <i class="fas fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+
+   
+    	
+    	<!-- TOP-IMAGE -->
+<!-- <div class="top">
+  <div class="top-image">
+  	<img src="img/backg.jpg">
+  </div>
+
+  <div class="top-text">
+    <h4>Hi There!</h4>
+    <h3>I'm Eliezer</h3>
+    <h5>I'm a web developer</h5>
+ 
+    <div class="top-button">
+    <a href="contact">
+    <input type="submit" name="contact" value="Contact Me">
+    </a>
+    </div>
+
+  </div>
+
+ </div> -->
+ <!-- TOP-IMAGE END -->
+
+ <div class="main-content">
+
+   <div class="intro">
+<p>You are here: <a href="index"><b>Home</b></a> / Blog</p>
+    <hr>
+</div>
+
+    		<h2>PHP Tutorial – How to Setup PHP and XAMPP for Your Project</h2>
+
+            <time ontimeupdate="June 20, 2022 5:25:31" datetime="june 20, 2022 5:25:31 am">Updated: June 20, 2022 </time> 
+                    <hr style="width: 25%;">
+                
+    				
+<div class="ads">
+            <p><h5>Advertisement</h5>
+<span id="ads"></span>
+</p>
+</div>
+
+
+
+    <div class="main-articles">Hello and welcome to this tutorial, everyone. Today, we'll look at how you can set up and use PHP in a project.
+
+But before we get started, we'll need to understand what PHP is all about.
+
+<div class="images">
+<img src="img/PHP_Installation.jfif" alt="PHP_Installation">
+</div>
+
+<h3>What is PHP?</h3>
+PHP is an abbreviation or acronym for "Hypertext Preprocessor." It's a web-based open source server-side scripting language that's integrated in your HTML files.
+
+You use it to make webpages that are both responsive and interactive with the database.
+
+<h3>Advantages of PHP</h3>
+PHP has many benefits, and here are a few of them:
+
+<h3>PHP is Simple to Use</h3>
+You don't need to study extensively to learn and use PHP because its syntax is sensible and well-organized. The command functions are also easy to work with because they help you understand exactly what they do.
+
+<h3>PHP is Flexible</h3>
+Flexibility is a major benefit that every scripting language should have, and PHP is no exception. Even after a project has been launched, a PHP developer has the ability to make changes to the project.
+
+<h3>PHP Helps You Collect Data from Forms</h3>
+You can use PHP to collect data from a form that has been created with HTML (like Name, E-mail, Phone Number, or Password). Many websites use this particular function of PHP.
+
+<h3>PHP Has Good Security</h3>
+PHP does not outsource the data or information collected from forms. This is part of the reason why most most website and social media apps make use of it because it has a secure database system.
+
+<h3>How to Install and Setup PHP in your Project</h3>
+To get started with PHP, you'll need three things: a code editor for writing your code, an installed version of PHP, and XAMPP.
+
+We'll be using Visual Studio code in this example, and I'll teach you how to install a version of PHP and XAMPP on your PC.
+
+Go to the PHP website and click on download in the navigation bar. The current version should be at the top.
+
+Click on "Windows downloads," and when it opens, scroll down a little and you should see a section that has "VS16 x64 Thread Safe (2022-May-11 09:29:42)." The section contains a "zip" file below it – click on it and wait for your download to finish.
+
+<div class="images">
+<img src="img/PHP_-Hypertext-Preprocessor---Google-Chrome-5_30_2022-7_57_44-PM-1.png" alt="PHP_-Hypertext-Preprocessor---Google-Chrome-5_30_2022-7_57_44-PM-1">
+<p>Click on the Download Button</p></div>
+
+
+<div class="images">
+<img src="img/PHP_-Hypertext-Preprocessor---Google-Chrome-5_30_2022-7_57_58-PM.png" alt="PHP_-Hypertext-Preprocessor---Google-Chrome-5_30_2022-7_57_58-PM">
+<p>Click on Windows downloads</p></div>
+
+
+
+<div class="images">
+<img src="img/PHP_-Hypertext-Preprocessor---Google-Chrome-5_30_2022-7_58_42-PM.png" alt="PHP_-Hypertext-Preprocessor---Google-Chrome-5_30_2022-7_58_42-PM">
+<p>Below Thread Safe click on the zip file to download</p></div>
+
+When the download is complete, go to your computer's downloads folder and look for a PHP zip file. Right-click it and select extract file. It's important to save the file to your local drive.
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-20-15-25-892-1.jpg" alt="bandicam-2022-05-30-20-15-25-892-1">
+<p>Zip folder and the extracted folder</p></div>
+
+Open the Local Disk and open the extracted PHP folder. Click once on the bar that shows the current directory then copy the name of the directory, which should be in this format: C:\php-8.1.6.
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-20-30-59-641.jpg" alt="bandicam-2022-05-30-20-30-59-641">
+<p>Click the bar once and copy the Directory name</p></div>
+
+In your windows bar, search for “Edit the systems environment property”. Click on the “environment variables” button, click on “Path”, and then click on the edit button below. It opens a space where you can create a new variable.
+
+So click on the new button and then paste the name of the directory you copied earlier (which should be “C:\php-8.1.6”) and click ok for all of them.
+
+
+<div class="images">
+<img src="img/Environment.jpg" alt="Environment">
+</div>
+
+To test if PHP is now installed in your computer, search for the command prompt in Windows by using the search keyword  cmd. Open it then type php --version and click enter. You should see something similar to this:
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-20-46-16-280.jpg" alt="bandicam-2022-05-30-20-46-16-280">
+<p>PHP version 8.1.6</p></div>
+
+The current version of PHP is installed on our PC as seen in the image above. The next step is to get XAMPP.
+
+<h3>What is XAMPP?</h3>
+The acronym XAMPP stands for cross-platform, Apache, MySQL, PHP, and Perl. XAMPP is a free and open source web server that allows you to develop, test, and build websites on a local server.
+
+Unlike PHP, XAMPP installation is quite simple and uncomplicated. Search for "XAMPP Download" in your browser or go to their website. You should see the current version of XAMPP for Windows, Linux, and OSX when it opens.
+
+Because I'm using a Windows computer, I simply need to click on the one for Windows, and the download should begin.
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-21-01-27-189.jpg" alt="bandicam-2022-05-30-21-01-27-189">
+<p>Click the XAMPP for Windows if you are using Windows</p></div>
+
+When its done downloading, go to your downloads, right click on the setup file and select “run as administrator”.
+
+This will take you to the Setup-xampp wizard:
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-21-07-14-620.jpg" alt="bandicam-2022-05-30-21-07-14-620">
+<p>click next</p></div>
+
+Click next, and you'll be able to select the components you want:
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-21-07-22-682.jpg" alt="bandicam-2022-05-30-21-07-22-682">
+<p>Select components and click next</p></div>
+
+Then you'll come to the installation folder. You have to select a folder where you want to install XAMPP. I recommend creating a folder in your local disk to install XAMPP.
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-21-07-29-806.jpg" alt="bandicam-2022-05-30-21-07-29-806">
+<p>select an installation folder</p></div>
+
+Then you'll select the language. You can select either English or Deutsch (your choice):
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-21-09-03-881.jpg" alt="bandicam-2022-05-30-21-09-03-881">
+<p>select language</p></div>
+
+Now you'll get Bitnami for XAMPP:
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-21-09-08-433.jpg" alt="bandicam-2022-05-30-21-09-08-433">
+<p>click next</p></div>
+
+And you're ready to install:
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-21-09-25-333.jpg" alt="bandicam-2022-05-30-21-09-25-333">
+<p>click next</p></div>
+
+Be patient while the installation process completes. When it's, done click ok.
+
+
+<div class="images">
+<img src="img/bandicam-2022-05-30-21-09-30-643.jpg" alt="bandicam-2022-05-30-21-09-30-643">
+<p>wait for the installation to complete</p></div>
+
+Once the installation process is finished, you can now use XAMPP in you project.
+
+<h3>Why Do You Need XAMPP?</h3>
+To run PHP for the web, you will need to install a web server like Apache and a database like MySQL – and both are supported by XAMPP.
+
+XAMPP is a local server that can run smoothly on our personal computer, and is accepted in both Windows and Linux. It also helps you test websites and see if they work before actually publishing them to a web server.
+
+<h3>How to Run PHP with XAMPP</h3>
+To run PHP with XAMPP you will have to go through some steps, and I will break it down so you can understand.
+
+First, open the local storage folder, go to the “xampp” folder and open it. You should see a folder named “htdocs”. Open it then create a new folder in it. In my case I named the folder I created “Demo” (so give your folder the name of your choice).
+
+
+<div class="images">
+<img src="img/1-2-3.jpg" alt="1-2-3">
+</div>
+Next, open your VS code, click on open folder, then go to the location where you saved the folder you created (which in my case I named “Demo”). Create a file with the extension .php – in my case I named mine test.php. The extension .php tells the code editor that we are working on a PHP code/project.
+
+
+<div class="images">
+<img src="img/bandicam-2022-06-01-22-08-09-094.jpg" alt="bandicam-2022-06-01-22-08-09-094">
+<p>create a file with an extension of .php</p></div>
+
+PHP is run with the <b>&lt;?php (Code goes in here) ?&gt;</b> tag. The opening tag is <b>&lt;?php</b> then your PHP code goes next before the closing tag <b>?&gt;</b>. For example:
+
+<code>
+&lt;?php echo “&lt;h1&gt; My Name is Derek &lt;h1&gt;"; ?&gt;
+</code>
+The echo keyword tells the browser to display My Name is Derek while the <h1></h1> tells the web browser to format the text to be bold/bigger. Then save it.
+
+After writing the code, open the XAMPP control panel, and start the Apache module by clicking on start under the action section.
+
+
+<div class="images">
+<img src="img/test.php---Demo---Visual-Studio-Code-6_2_2022-1_23_21-AM.png" alt="test.php---Demo---Visual-Studio-Code-6_2_2022-1_23_21-AM">
+</div>
+Then go to your web browser and in the search bar type localhost/Demo/test.php, then enter. Your web browser should be display this:
+
+
+<div class="images">
+<img src="img/bandicam-2022-06-01-22-07-50-039.jpg" alt="bandicam-2022-06-01-22-07-50-039">
+<p>web display</p></div>
+
+If your code was displayed on the web browser, congratulations! You're up and running.
+
+<h3>Conclusion</h3>
+Thank you very much for following along with this tutorial. I hope you got some value out of this lesson and I hope you'll try using PHP and XAMPP.
+
+Stay tuned for my next tutorial.</div>
+
+
+
+
+<div class="post">
+    <h3>POPULAR BLOG POST:</h3>
+    <p>
+     <ul class="blogs">
+                    <span id="post"></span>
+                    
+                    <span id="post2"></span>
+                    
+                    <span id="post3"></span>
+                    
+                    <span id="post4"></span>
+                    
+                    <span id="post5"></span>
+                    
+                    <span id="post6"></span>
+
+                    <span id="post7"></span>
+                    
+                    <span id="post8"></span>
+                    
+                    <span id="post9"></span>
+                    
+                    <span id="post10"></span>
+                    
+                    <span id="post11"></span>
+                    
+                    <span id="post12"></span>
+                </ul>
+    </p>
+    </div>
+
+
+
+    </div>
+
+    <!-- FOOTER --->
+    <footer class="footer">
+    	<div class="main-footer">
+
+    		<div class="site-logo">
+                <span id="logo2"></span>
+            </div>
+
+            <div class="main-footer-content">
+
+            	<div class="social-link">
+                        <span id="facebook"></span>
+                        
+                        <span id="google"></span>
+
+                        <span id="whatsapp"></span>
+
+                        <span id="email"></span>
+
+                        <span id="youtube"></span>
+                        
+                        <span id="twitter"></span>
+                    </div>
+
+                    <div class="condition">
+                    <a href="terms-and-conditions">Terms & Conditions</a>
+                    <a href="privacy-policy">Privacy Policy</a>
+                </div>
+
+            	<div class="copyright">
+                    <p>&copy; Love2Code <span id="year"></span>. All right reserved.</p>
+                </div>
+
+            </div>
+    	</div>
+    </footer>
+
+    <!-- FOOTER END --->
+
+<script src="script/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.5/ace.js"></script>
+</body>
+</html>

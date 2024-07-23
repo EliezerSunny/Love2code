@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Hex color Codes</title>
+    
+    <!-- Love2Code icon -->
+  <link rel="icon" href="img/Love2Code.ico" type="image/x-icon">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+    <!-- google advertisement -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7275069784044836"
+     crossorigin="anonymous"></script>
+
+
+     <meta name="og:description" content="Welcome to Love2Code – a free online guide to coding for beginners. If you’re someone who wants to learn about coding, but you haven’t got a clue where to start, you’ve come to the right place. This site has all the step-by-step information you need to get started." />
+    <meta name="keywords" content="A free online guide to coding for beginners.">
+	<meta name="author" content="Eliazer Adetunji" />
+	<meta name="TitleImage" content="img/logo.jpg" />
+
+	<meta property="og:local" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Love2Code" />
+	<meta property="article:publisher" content="https://m.facebook.com/love2code/" />
+	<meta property="og:image" content="img/logo.jpg" />
+	<meta property="og:url" content="www.love2code.site" />
+	<meta property="og:site_name" content="Love2Code" />
+</head>
+<body>
+	<header class="header-area">
+        <div class="header-container">
+
+            <div class="site-logo">
+                <span id="logo"></span>
+            </div>
+            
+            <div class="site-nav-menu1">
+                <ul class="primary-menu1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="site-nav-menu" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                <ul class="primary-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger" onclick="openNav()">
+              <!-- <span></span>
+               <span></span>
+               <span></span> --->
+
+               <i class="fas fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+
+   
+    	
+    	<!-- TOP-IMAGE -->
+<!-- <div class="top">
+  <div class="top-image">
+  	<img src="img/backg.jpg">
+  </div>
+
+  <div class="top-text">
+    <h4>Hi There!</h4>
+    <h3>I'm Eliezer</h3>
+    <h5>I'm a web developer</h5>
+ 
+    <div class="top-button">
+    <a href="contact">
+    <input type="submit" name="contact" value="Contact Me">
+    </a>
+    </div>
+
+  </div>
+
+ </div> -->
+ <!-- TOP-IMAGE END -->
+
+ <div class="main-content">
+
+   <div class="intro">
+<p>You are here: <a href="index"><b>Home</b></a> / Understanding Hex color Codes</p>
+    <hr>
+</div>
+
+    		<h2>Understanding Hex color Codes</h2>
+                
+    				
+<div class="ads">
+            <p><h5>Advertisement</h5>
+<span id="ads"></span>
+</p>
+</div>
+
+<p>In CSS there are two main ways of selecting colors. The first is to simply use the color name, like this:</p> 
+
+
+<p><pre><code>background-color: blue;</code></pre></p> 
+
+
+<p>Obviously this is limited. A computer can display millions of different colors, and remembering the names of every single one of them is impossible. And spare a thought for that poor guy whose job it is to come up with the names!</p> 
+
+
+<p>This is why CSS uses <em>hex codes</em>, like this:</p>
+
+
+ <p><pre><code>background-color: #DDEEFF;</code></pre></p> 
+ 
+ 
+ <p>You’ve probably used hex codes before. You probably use a hex color picker to generate your codes. But it’s likely you have no idea what a hex code means or how it’s generated. Learning this is surprisingly easy and satisfying, and once you’ve got your head around it you’ll be able to write your own hex codes without the need for a color picker.</p> 
+ 
+ 
+ <p><h3>Hex Codes Represent Red, Green and Blue</h3></p> 
+ 
+ 
+ <p>A computer screen displays a color by combining red light, green light and blue light. 100% red, 100% green and 100% blue produces white. Zero red, zero green and zero blue produces black. In fact, equal levels of red, green and blue, whatever that level may be, will always produce a shade of gray.</p> 
+ 
+ 
+ <p>The six digits of a hex code are in fact three two-digit numbers, each representing the level of red, green and blue. So <code>#000100</code> is zero red, the darkest possible shade of green without being totally black, and zero blue. <code>#010101</code>, because the three values are all equal, is the darkest possible shade of grey, and <code>#020202</code> is the second darkest. And of course <code>#000000</code> is black. But what about <code>#FFFFFF</code> for white – what do the letters mean?</p> 
+ 
+ 
+ <p><h3>Hex Codes Use The Hexadecimal System to Minimize Length</h3> </p>
+ 
+ 
+ <p>There are 256 possible shades each of red, green and blue (0 through 255). If we wanted to produce white (the brightest levels of all three colors combined), we’d need to write <code>#255255255</code>. That’s nine digits long.</p> 
+ 
+ 
+ <p>Hex codes use the <em>hexadecimal number system</em> to make it possible for 256 numbers to be represented with only two digits. Instead of counting 0 through 10 like our regular decimal number system, it counts 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F <em>and then</em> 10, followed by 11, 12, 13, 14, 15, 16, 17, 18, 19, 1A, 1B, 1C, 1D, 1E, 1F and then 20. Make sense?</p> 
+ 
+ 
+ <p>This means that 256 numbers can be represented using only two digits, instead of the 100 that are possible with our decimal number system (0 through 99). So the highest possible two digit number is not 99 but FF (equal to 255). This is why white is <code>#FFFFFF</code>, pure red is <code>#FF0000</code>, pure green <code>#00FF00</code> and pure blue <code>#0000FF</code>.</p> 
+ 
+ 
+ <p><a href="https://www.tutorialspoint.com/binary-number-system">Learn more about hexadecimal and its relationship with binary…</a></p> 
+
+ 
+ <p><h3>Hex Codes Can Be Abbreviated</h3> </p>
+ 
+ 
+ <p>You may have seen hex codes like <code>#FFF</code>, <code>#000</code>, <code>#0F0</code> or even <code>#ABC</code> that only use three digits. This is just a shorthand of writing a code which is three pairs of identical digits: <code>#FFFFFF</code>, <code>#000000</code>, <code>#00FF00</code> or <code>#AABBCC</code>.</p> 
+ 
+ 
+ <p><h3>Come Up With Your Own Hex Codes</h3> </p>
+ 
+ 
+ <p>So now you know how a hex code is generated, it becomes possible to write your own without the need for a color picker. Of course, a color picker is still the easier option for more obscure colors, but for simple combinations like magenta (blue + red, <code>#F0F</code>), cyan (blue + green, <code>#0FF</code>) or any shade of grey (examples are <code>#222</code>, <code>#555</code> or <code>#CCC</code>), knowing how hex codes work will save you a lot of time.</p>
+
+
+<div class="post">
+    <h3>POPULAR BLOG POST:</h3>
+    <p>
+     <ul class="blogs">
+                    <span id="post"></span>
+                    
+                    <span id="post2"></span>
+                    
+                    <span id="post3"></span>
+                    
+                    <span id="post4"></span>
+                    
+                    <span id="post5"></span>
+                    
+                    <span id="post6"></span>
+
+                    <span id="post7"></span>
+                    
+                    <span id="post8"></span>
+                    
+                    <span id="post9"></span>
+                    
+                    <span id="post10"></span>
+                    
+                    <span id="post11"></span>
+                    
+                    <span id="post12"></span>
+                </ul>
+    </p>
+    </div>
+
+
+
+    </div>
+
+    <!-- FOOTER --->
+    <footer class="footer">
+    	<div class="main-footer">
+
+    		<div class="site-logo">
+                <span id="logo2"></span>
+            </div>
+
+            <div class="main-footer-content">
+
+            	<div class="social-link">
+                        <span id="facebook"></span>
+                        
+                        <span id="google"></span>
+
+                        <span id="whatsapp"></span>
+
+                        <span id="email"></span>
+
+                        <span id="youtube"></span>
+                        
+                        <span id="twitter"></span>
+                    </div>
+
+                    <div class="condition">
+                    <a href="terms-and-conditions">Terms & Conditions</a>
+                    <a href="privacy-policy">Privacy Policy</a>
+                </div>
+
+            	<div class="copyright">
+                    <p>&copy; Love2Code <span id="year"></span>. All right reserved.</p>
+                </div>
+
+            </div>
+    	</div>
+    </footer>
+
+    <!-- FOOTER END --->
+
+<script src="script/script.js"></script>
+</body>
+</html>

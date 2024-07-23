@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Coding Works</title>
+    
+    <!-- Love2Code icon -->
+  <link rel="icon" href="img/Love2Code.ico" type="image/x-icon">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+    <!-- google advertisement -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7275069784044836"
+     crossorigin="anonymous"></script>
+
+
+     <meta name="og:description" content="Welcome to Love2Code – a free online guide to coding for beginners. If you’re someone who wants to learn about coding, but you haven’t got a clue where to start, you’ve come to the right place. This site has all the step-by-step information you need to get started." />
+    <meta name="keywords" content="A free online guide to coding for beginners.">
+	<meta name="author" content="Eliazer Adetunji" />
+	<meta name="TitleImage" content="img/logo.jpg" />
+
+	<meta property="og:local" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Love2Code" />
+	<meta property="article:publisher" content="https://m.facebook.com/love2code/" />
+	<meta property="og:image" content="img/logo.jpg" />
+	<meta property="og:url" content="www.love2code.site" />
+	<meta property="og:site_name" content="Love2Code" />
+</head>
+<body>
+	<header class="header-area">
+        <div class="header-container">
+
+            <div class="site-logo">
+                <span id="logo"></span>
+            </div>
+            
+            <div class="site-nav-menu1">
+                <ul class="primary-menu1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog" class="active">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="site-nav-menu" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                <ul class="primary-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog" class="active">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="hamburger" onclick="openNav()">
+              <!-- <span></span>
+               <span></span>
+               <span></span> --->
+
+               <i class="fas fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+
+   
+    	
+    	<!-- TOP-IMAGE -->
+<!-- <div class="top">
+  <div class="top-image">
+  	<img src="img/backg.jpg">
+  </div>
+
+  <div class="top-text">
+    <h4>Hi There!</h4>
+    <h3>I'm Eliezer</h3>
+    <h5>I'm a web developer</h5>
+ 
+    <div class="top-button">
+    <a href="contact">
+    <input type="submit" name="contact" value="Contact Me">
+    </a>
+    </div>
+
+  </div>
+
+ </div> -->
+ <!-- TOP-IMAGE END -->
+
+ <div class="main-content">
+
+   <div class="intro">
+<p>You are here: <a href="index"><b>Home</b></a> / Blog</p>
+    <hr>
+</div>
+
+    		<h2>How Coding Works</h2>
+
+            <time ontimeupdate="April 2, 2022 5:25:31" datetime="april 2, 2022 5:25:31 am">Updated: April 2, 2022 </time> 
+                    <hr style="width: 25%;">
+                
+    				
+<div class="ads">
+            <p><h5>Advertisement</h5>
+<span id="ads"></span>
+</p>
+</div>
+
+
+<div class="contents1"> 
+<h4>Beginner Series:</h4>
+<ul class="contents2">
+                    <li><a href="benefits-of-learning-code">Benefits of Learning to Code</a></li>
+                <li><a href="how-coding-works">How Coding Works</a></li>
+                <li><a href="common-coding-languages">Common Coding Languages</a></li>
+                <li><a href="the-best-place-to-start-coding">The Best Place to Start Coding</a></li>
+                <li><a href="introduction-to-web-development">Introduction to Web Development</a></li>
+                <li><a href="introduction-to-web-design">Introduction to Web Design</a></li>
+                <li><a href="introduction-to-app-development">Introduction to App Development</a></li>
+                </ul>
+    </div>
+<br>
+    
+
+    <p>So how does coding work, really? The short answer is that writing code tells the computer what to do, but it’s not quite that simple.</p> 
+    
+    
+    <p>So here’s the longer answer. A computer can only understand two distinct types of data: on and off. In fact, a computer is really just a collection of on/off switches (<a href="https://en.wikipedia.org/wiki/Transistor">transistors</a>). Anything that a computer can do is nothing more than a unique combination of some transistors turned on and some transistors turned off.</p> 
+    
+    
+    <p><a href="https://www.tutorialspoint.com/computer_logical_organization/binary_codes.htm">Binary code</a> is the representation of these combinations as 1s and 0s, where each digit represents one transistor. Binary code is grouped into bytes, groups of 8 digits representing 8 transistors. For example, 11101001. Modern computers contain millions or even billions of transistors, which means an unimaginably large number of combinations.</p> 
+    
+    
+    <p>But one problem arises here. To be able to write a computer program by typing out billions of 1s and 0s would require superhuman brainpower, and even then it would probably take you a lifetime or two to write.</p> 
+    
+    
+    <p>This is where programming languages come in…</p> 
+    
+    
+    <p><h3>Programming Languages</h3> </p>
+    
+    
+    <p>Here’s a simple example of some code:</p> 
+    
+    
+    <p><pre><code>print 'Hello, world!'</code></pre> </p>
+    
+    
+    <p>That line of code is written in the <a href="https://www.programiz.com/python-programming">Python</a> programming language. Put simply, a programming (or coding) language is a set of syntax rules that define how code should be written and formatted.</p> 
+    
+    
+    <p>Thousands of different programming languages make it possible for us to create computer software, apps and websites. Instead of writing binary code, they let us write code that is (relatively) easy for us to write, read and understand. Each language comes with a special program that takes care of translating what we write into binary code.</p> 
+   
+    
+    <p><h3>Why Do We Have So Many Languages?</h3> </p>
+    
+    
+    <p>Because different languages are designed to be used for different purposes – some are useful for web development, others useful for writing desktop software, others useful for solving scientific and numeric problems, and so on.</p> 
+    
+    
+    <p><h3>Low-Level and High-Level Languages</h3> </p>
+    
+    
+    <p>Programming languages can also be low-level or high-level.</p> 
+    
+    
+    <p>Low-level languages are closer to the binary code a computer understands, while high-level languages bear a lot less resemblance to binary code. High-level languages are easier to program in, because they’re less detailed and designed to be easy for us to write.</p> 
+    
+    
+    <p>Nearly all of the main programming languages in use today are high-level languages.</p> 
+    
+    
+    <p><h3>Programs</h3> </p>
+    
+    
+    <p>A program is simply a text file, written in a certain coding language. The code inside a program file is called the source code. Every coding language has its own file extension for identifying code files written in that language. For example, Python’s is ‘.py’.</p> 
+    
+    
+    <p>To make a program, you write the code in a plain text editor like Notepad and save the file to your computer. That’s it. For example, the below line of code could be the contents of a very short Python program called hello.py:</p> 
+    
+    
+    <p><pre><code>print 'Hello, world!'</code></pre> </p>
+    
+    
+    <p>How do you run a program and actually get it to perform its commands? That varies between coding languages. Some languages save a separate binary file that the computer can directly run, while other languages have their programs run indirectly by certain software.</p> 
+    
+    
+    <p>For example, a JavaScript program file would get run by a web browser like Chrome. A PHP program file would get run by a web server like <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a>.</p> 
+    
+    
+    <p>In the case of our hello.py file, the Python language comes with a command line which will display the output of the program – the text ‘Hello, world!’. If you were to enter the code into the command line and press enter, the program gets run and the command will get executed.</p> 
+    
+    
+    <p><h3>What Happens When You Run a Program</h3> </p>
+    
+    
+    <p>A computer doesn’t actually understand the phrase ‘Hello, world!’, and it doesn’t know how to display it on screen. It only understands on and off. So to actually run a command like 
+    
+    
+    <p><code>print 'Hello, world!'</code>, </p>
+    <br>
+    
+    it has to translate all the code in a program into a series of ons and offs that it can understand.</p> 
+    
+    
+    <p>To do that, a number of things happen:</p> 
+    
+    
+    <ol class="languages"> 
+                    <li>The source code is translated into <a href="https://www.tutorialspoint.com/assembly_programming/assembly_introduction.htm">assembly language</a>.</li> 
+                    <li>The assembly code is translated into <a href="https://www.britannica.com/technology/machine-language">machine language</a>.</li> 
+                    <li>The machine language is directly executed as <a href="https://www.tutorialspoint.com/computer_logical_organization/binary_codes.htm">binary code</a>.</li> 
+                    </ol> 
+                    
+                    
+                    <p>Confused? Let’s go into a bit more detail. The coding language first has to translate its source code into assembly language, a super low-level language that uses words and numbers to represent binary patterns. Depending on the language, this may be done with an interpreter (where the program is translated line-by-line), or with a compiler (where the program is translated as a whole).</p> 
+                    
+                    
+                    <p>The coding language then sends off the assembly code to the computer’s assembler, which converts it into the machine language that the computer can understand and execute directly as binary code.</p> 
+                    
+                    
+                    <p><h3>Conclusion</h3> </p>
+                    
+                    
+                    <p>Isn’t it amazing to think that something as deceptively simple and primitive as binary code can create things as complex as what goes on inside a computer?</p> 
+                    
+                    
+                    <p>Your screen, operating system, photos, videos, the Internet, Facebook, your online bank account, and this website – all these things can be constructed from nothing but 1s and 0s. It’s a real symbol of human achievement.</p> 
+                    
+                    
+                    <p>Don’t worry if this process seems complicated and confusing – the whole reason that coding languages exist is to simplify it all for you! On the next page, you’ll learn about 12 of <a href="common-coding-languages">today’s popular languages</a>.</p> 
+
+
+<div class="pagination">
+                <ul class="pagination1">
+                                <li class="pagination-previous"><a href="what-is-coding" ><input type="submit" name="next" value="« Previous Page"></a></li>
+
+<li><a href="blog" class="active"><input type="submit" name="next" value="1"></a></li> 
+                <li><a href="what-is-coding"><input type="submit" name="next" value="2"></a></li> 
+                <li><a href="how-coding-works"><b><input type="submit" name="next" value="3"></b></a></li>
+                <li><a href="how-to-start-a-coding-project"><input type="submit" name="next" value="4"></a></li> 
+                <li class="pagination-omission">…</li> 
+                <li><a href="how-to-become-a-coder"><input type="submit" name="next" value="11"></a></li> 
+                <li class="pagination-next"><a href="how-to-start-a-coding-project" ><input type="submit" name="next" value="Next Page »"></a></li> 
+                </ul>
+
+
+                </div>
+
+
+<div class="post">
+    <h3>POPULAR BLOG POST:</h3>
+    <p>
+     <ul class="blogs">
+                    <span id="post"></span>
+                    
+                    <span id="post2"></span>
+                    
+                    <span id="post3"></span>
+                    
+                    <span id="post4"></span>
+                    
+                    <span id="post5"></span>
+                    
+                    <span id="post6"></span>
+
+                    <span id="post7"></span>
+                    
+                    <span id="post8"></span>
+                    
+                    <span id="post9"></span>
+                    
+                    <span id="post10"></span>
+                    
+                    <span id="post11"></span>
+                    
+                    <span id="post12"></span>
+                </ul>
+    </p>
+    </div>
+
+
+
+    </div>
+
+    <!-- FOOTER --->
+    <footer class="footer">
+    	<div class="main-footer">
+
+    		<div class="site-logo">
+                <span id="logo2"></span>
+            </div>
+
+            <div class="main-footer-content">
+
+            	<div class="social-link">
+                        <span id="facebook"></span>
+                        
+                        <span id="google"></span>
+
+                        <span id="whatsapp"></span>
+
+                        <span id="email"></span>
+
+                        <span id="youtube"></span>
+                        
+                        <span id="twitter"></span>
+                    </div>
+
+                    <div class="condition">
+                    <a href="terms-and-conditions">Terms & Conditions</a>
+                    <a href="privacy-policy">Privacy Policy</a>
+                </div>
+
+            	<div class="copyright">
+                    <p>&copy; Love2Code <span id="year"></span>. All right reserved.</p>
+                </div>
+
+            </div>
+    	</div>
+    </footer>
+
+    <!-- FOOTER END --->
+
+<script src="script/script.js"></script>
+</body>
+</html>
